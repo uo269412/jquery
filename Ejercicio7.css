@@ -1,0 +1,104 @@
+/*001*/
+body {
+    font-family: "Optima", sans-serif;
+    padding:6px;
+    font-size:16px;
+    background-color:black;
+    color:white;
+}
+/*001*/
+h1 {
+    color:#ffff;
+    text-transform: uppercase;
+    padding: 120px 10px;
+    text-align: left; 
+    font-size: 400%;
+    background-repeat: no-repeat;
+    background-position: top right;
+    text-shadow:
+    -5px -5px 0 #cc0002,
+    5px -5px 0 #cc0002,
+    -5px 5px 0 #cc0002,
+    5px 5px 0 #cc0002;
+}
+/*001*/
+h2 {
+    color:#cc0002;
+    font-size: 150%;
+    text-transform: uppercase;
+}
+/*001*/
+h3 {
+    color:#ffffff;
+    text-transform: uppercase;
+}
+/*001*/
+footer {
+    text-align: center;
+}
+/*010*/
+.box {
+    float: left;
+    width: 16.66%;
+    padding: 20px;
+    text-align: center;
+    box-sizing: border-box;
+    background-color:#640002 ;
+}  
+/*010*/
+  .boxInfo {
+    content: "";
+    clear: both;
+    width: 100%;
+    display: table;
+} 
+/*011*/
+  a:link{
+      color:rgb(199, 221, 247);
+}
+/*011*/
+  a:visited{
+    color:rgb(183, 217, 255);
+}
+/*001*/
+img {
+    border: 10px solid #cc0002;
+}
+/*010*/
+.centerimage {
+    text-align: center;
+}
+/*001*/
+ul {
+    padding: 10px;
+    list-style-type: circle;
+    width: 30%;
+}
+/*001*/
+li {
+    padding: 6px;
+}
+/*002*/
+ul li {
+    margin-left: 20px;
+}
+/*012*/
+ul li:hover {
+    background-color: #555353;
+    color:white;
+}
+/*001*/
+th, td {
+    padding: 6px;
+    font-size:150%;
+    text-align: center;
+}
+/*001*/
+th {
+    background-color: #4e0203;
+}
+/*011*/
+tr:hover {
+    background-color: #cc0002;
+    color:white;
+}
