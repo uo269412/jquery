@@ -3,23 +3,27 @@ body {
     font-family: "Optima", sans-serif;
     padding:6px;
     font-size:16px;
-    background-color:black;
-    color:white;
+    background-color:rgb(255, 255, 255);
 }
 /*001*/
 h1 {
-    color:#ffff;
+    color:rgb(0, 0, 0);
     text-transform: uppercase;
     padding: 120px 10px;
     text-align: left; 
     font-size: 400%;
     background-repeat: no-repeat;
     background-position: top right;
-    text-shadow:
-    -5px -5px 0 #cc0002,
-    5px -5px 0 #cc0002,
-    -5px 5px 0 #cc0002,
-    5px 5px 0 #cc0002;
+}
+
+button {
+	border-radius: 1em;
+	width: 10em;
+	height: 5em;
+	margin: 3em 3em;
+	background-color: rgb(0, 0, 0);
+	font-size: 1em;
+	color: rgb(255, 255, 255);
 }
 /*001*/
 h2 {
@@ -29,7 +33,7 @@ h2 {
 }
 /*001*/
 h3 {
-    color:#ffffff;
+    color:#000000;
     text-transform: uppercase;
 }
 /*001*/
@@ -52,14 +56,6 @@ footer {
     width: 100%;
     display: table;
 } 
-/*011*/
-  a:link{
-      color:rgb(199, 221, 247);
-}
-/*011*/
-  a:visited{
-    color:rgb(183, 217, 255);
-}
 /*001*/
 img {
     border: 10px solid #cc0002;
@@ -82,11 +78,6 @@ li {
 ul li {
     margin-left: 20px;
 }
-/*012*/
-ul li:hover {
-    background-color: #555353;
-    color:white;
-}
 /*001*/
 th, td {
     padding: 6px;
@@ -95,10 +86,5 @@ th, td {
 }
 /*001*/
 th {
-    background-color: #4e0203;
-}
-/*011*/
-tr:hover {
-    background-color: #cc0002;
-    color:white;
+    background-color: #f58f91;
 }
